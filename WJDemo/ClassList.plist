@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>slug</key>
+		<string>newbie</string>
+		<key>name</key>
+		<string>新手入门</string>
+	</dict>
+	<dict>
+		<key>slug</key>
+		<string>tips</string>
+		<key>name</key>
+		<string>摄影技巧</string>
+	</dict>
+	<dict>
+		<key>slug</key>
+		<string>art</string>
+		<key>name</key>
+		<string>构图美学</string>
+	</dict>
+	<dict>
+		<key>slug</key>
+		<string>camera</string>
+		<key>name</key>
+		<string>器材装备</string>
+	</dict>
+	<dict>
+		<key>slug</key>
+		<string>photoshop</string>
+		<key>name</key>
+		<string>后期处理</string>
+	</dict>
+	<dict>
+		<key>slug</key>
+		<string>people</string>
+		<key>name</key>
+		<string>人像摄影</string>
+	</dict>
+	<dict>
+		<key>slug</key>
+		<string>life</string>
+		<key>name</key>
+		<string>纪实摄影</string>
+	</dict>
+	<dict>
+		<key>slug</key>
+		<string>landscape</string>
+		<key>name</key>
+		<string>风光摄影</string>
+	</dict>
+	<dict>
+		<key>slug</key>
+		<string>nature</string>
+		<key>name</key>
+		<string>生态摄影</string>
+	</dict>
+	<dict>
+		<key>slug</key>
+		<string>commercial</string>
+		<key>name</key>
+		<string>商业摄影</string>
+	</dict>
+</array>
+</plist>
