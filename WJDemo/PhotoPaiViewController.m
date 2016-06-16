@@ -39,19 +39,18 @@
 - (void)htmlContentGetWithID:(NSInteger)ID{
 
     NSString *url = [NSString stringWithFormat:@"%@%ld",PPAPI_URL,(long)ID];
-    
-    [LORequestManger GET:url success:^(id response) {
+    [WJAFNRequestManager GET:url paramerters:nil success:^(id response) {
         [HUD show:YES];
         
         NSDictionary *dic = (NSDictionary *)response;
         self.htmlString = dic[@"post"][@"content"];
         [self loadWebViewWithString:self.htmlString];
-
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    } failure:^(id error) {
         HUD.mode = MBProgressHUDModeText;
         HUD.labelText = @"网络连接失败";
         [HUD hide:YES afterDelay:2];
     }];
+
 }
 
 - (void)loadWebViewWithString:(NSString *)string{

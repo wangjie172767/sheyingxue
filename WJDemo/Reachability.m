@@ -142,7 +142,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
   struct sockaddr_in zeroAddress;
   bzero(&zeroAddress, sizeof(zeroAddress));
   zeroAddress.sin_len = sizeof(zeroAddress);
-  zeroAddress.sin_family = AF_INET;
+  zeroAddress.sin_family = AF_INET6;
   return [self reachabilityWithAddress:&zeroAddress];
 }
 
@@ -151,7 +151,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
   struct sockaddr_in localWifiAddress;
   bzero(&localWifiAddress, sizeof(localWifiAddress));
   localWifiAddress.sin_len = sizeof(localWifiAddress);
-  localWifiAddress.sin_family = AF_INET;
+  localWifiAddress.sin_family = AF_INET6;
   // IN_LINKLOCALNETNUM is defined in <netinet/in.h> as 169.254.0.0
   localWifiAddress.sin_addr.s_addr = htonl(IN_LINKLOCALNETNUM);
   Reachability *retVal = [self reachabilityWithAddress:&localWifiAddress];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BC86C43B5C27A12DDFF8854 /* libPods-WJDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7EEE29A9B8CCDB8EA2CEEE /* libPods-WJDemo.a */; };
 		1810E1A11C857FBC003A38DB /* ZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810E1A01C857FBC003A38DB /* ZoomViewController.m */; };
 		1810E1A41C85993F003A38DB /* BackBarBtnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810E1A31C85993F003A38DB /* BackBarBtnItem.m */; };
 		1810E1A71C859988003A38DB /* WJAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810E1A61C859988003A38DB /* WJAlertController.m */; };
@@ -23,7 +24,6 @@
 		1884A4CB1C5A2D61006ECBD5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A4CA1C5A2D61006ECBD5 /* DetailViewController.m */; };
 		1884A4CF1C5B0BB3006ECBD5 /* WJBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A4CE1C5B0BB3006ECBD5 /* WJBackgroundView.m */; };
 		1884A4D21C5B112B006ECBD5 /* DetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A4D11C5B112B006ECBD5 /* DetailCollectionViewCell.m */; };
-		1884A4ED1C6077D5006ECBD5 /* LORequestManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A4EC1C6077D5006ECBD5 /* LORequestManger.m */; };
 		1884A4F11C608012006ECBD5 /* PostsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A4F01C608012006ECBD5 /* PostsModel.m */; };
 		1884A4F71C6092C7006ECBD5 /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A4F61C6092C7006ECBD5 /* ClassViewController.m */; };
 		1884A4FA1C6092F5006ECBD5 /* ClassCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A4F91C6092F5006ECBD5 /* ClassCollectionViewCell.m */; };
@@ -41,13 +41,14 @@
 		18FED8541C76F2A30051B666 /* CollectedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FED8521C76F2A30051B666 /* CollectedCell.m */; };
 		18FED8551C76F2A30051B666 /* CollectedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FED8531C76F2A30051B666 /* CollectedCell.xib */; };
 		18FED8D81C771E880051B666 /* JSBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 18FED8D71C771E880051B666 /* JSBridge.js */; };
-		21B59E5C006A86C5346B3583 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4583DB7B235BF12384C5F753 /* libPods.a */; };
 		A05623F81D07CB50008BCAE6 /* EGORefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A05623F71D07CB50008BCAE6 /* EGORefresh.bundle */; };
 		A05623FB1D08152C008BCAE6 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A05623FA1D08152C008BCAE6 /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A06B991A1D0D6441008F5E72 /* NSString+Sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B99141D0D6441008F5E72 /* NSString+Sha1.m */; };
 		A06B991B1D0D6441008F5E72 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A06B99151D0D6441008F5E72 /* README.md */; };
 		A06B991C1D0D6441008F5E72 /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B99171D0D6441008F5E72 /* RNCachingURLProtocol.m */; };
 		A06B991D1D0D6441008F5E72 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B99181D0D6441008F5E72 /* Reachability.m */; };
+		A07C85C11D12424200BDE5F4 /* WJAFNRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A07C85C01D12424200BDE5F4 /* WJAFNRequestManager.m */; };
+		A07C85C41D1244A100BDE5F4 /* WJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A07C85C31D1244A100BDE5F4 /* WJProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12FD9E7F990A2C09A2926E4E /* Pods-WJDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJDemo/Pods-WJDemo.release.xcconfig"; sourceTree = "<group>"; };
 		1810E19F1C857FBC003A38DB /* ZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomViewController.h; sourceTree = "<group>"; };
 		1810E1A01C857FBC003A38DB /* ZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomViewController.m; sourceTree = "<group>"; };
 		1810E1A21C85993F003A38DB /* BackBarBtnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackBarBtnItem.h; sourceTree = "<group>"; };
@@ -102,8 +104,6 @@
 		1884A4D11C5B112B006ECBD5 /* DetailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCollectionViewCell.m; sourceTree = "<group>"; };
 		1884A4E51C5F4A98006ECBD5 /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
 		1884A4EA1C6076F4006ECBD5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		1884A4EB1C6077D5006ECBD5 /* LORequestManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORequestManger.h; sourceTree = "<group>"; };
-		1884A4EC1C6077D5006ECBD5 /* LORequestManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORequestManger.m; sourceTree = "<group>"; };
 		1884A4EF1C608012006ECBD5 /* PostsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsModel.h; sourceTree = "<group>"; };
 		1884A4F01C608012006ECBD5 /* PostsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsModel.m; sourceTree = "<group>"; };
 		1884A4F51C6092C7006ECBD5 /* ClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
@@ -132,8 +132,8 @@
 		18FED8521C76F2A30051B666 /* CollectedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectedCell.m; sourceTree = "<group>"; };
 		18FED8531C76F2A30051B666 /* CollectedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectedCell.xib; sourceTree = "<group>"; };
 		18FED8D71C771E880051B666 /* JSBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSBridge.js; sourceTree = "<group>"; };
-		1D2455CF461EDE846D5C71CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		4583DB7B235BF12384C5F753 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		33358193401505FAF3DE810C /* Pods-WJDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJDemo/Pods-WJDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6C7EEE29A9B8CCDB8EA2CEEE /* libPods-WJDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05623F71D07CB50008BCAE6 /* EGORefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EGORefresh.bundle; sourceTree = "<group>"; };
 		A05623F91D08152C008BCAE6 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		A05623FA1D08152C008BCAE6 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
@@ -144,7 +144,10 @@
 		A06B99171D0D6441008F5E72 /* RNCachingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCachingURLProtocol.m; sourceTree = "<group>"; };
 		A06B99181D0D6441008F5E72 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		A06B99191D0D6441008F5E72 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		EF7080D13EB7638CC6B2B8AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A07C85BF1D12424200BDE5F4 /* WJAFNRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAFNRequestManager.h; sourceTree = "<group>"; };
+		A07C85C01D12424200BDE5F4 /* WJAFNRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAFNRequestManager.m; sourceTree = "<group>"; };
+		A07C85C21D1244A100BDE5F4 /* WJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJProgressHUD.h; sourceTree = "<group>"; };
+		A07C85C31D1244A100BDE5F4 /* WJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FED83A1C76C1950051B666 /* CoreData.framework in Frameworks */,
-				21B59E5C006A86C5346B3583 /* libPods.a in Frameworks */,
+				0BC86C43B5C27A12DDFF8854 /* libPods-WJDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,8 +184,8 @@
 				1884A47F1C5A1AC5006ECBD5 /* WJDemoTests */,
 				1884A48A1C5A1AC6006ECBD5 /* WJDemoUITests */,
 				1884A4641C5A1AC5006ECBD5 /* Products */,
-				5F5B7F2C4C1F58004BCC6CDC /* Pods */,
 				DD70E7D9F99A5B20C9F42DB5 /* Frameworks */,
+				5BF49B0995086154FCC9B134 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -269,8 +272,10 @@
 				A05623FA1D08152C008BCAE6 /* EGORefreshTableHeaderView.m */,
 				18F03AD21C619B15001D9478 /* AAPullToRefresh */,
 				1884A4EE1C607F9D006ECBD5 /* Model */,
-				1884A4EB1C6077D5006ECBD5 /* LORequestManger.h */,
-				1884A4EC1C6077D5006ECBD5 /* LORequestManger.m */,
+				A07C85BF1D12424200BDE5F4 /* WJAFNRequestManager.h */,
+				A07C85C01D12424200BDE5F4 /* WJAFNRequestManager.m */,
+				A07C85C21D1244A100BDE5F4 /* WJProgressHUD.h */,
+				A07C85C31D1244A100BDE5F4 /* WJProgressHUD.m */,
 				1884A4CD1C5B0BB3006ECBD5 /* WJBackgroundView.h */,
 				1884A4CE1C5B0BB3006ECBD5 /* WJBackgroundView.m */,
 				18F03AD91C61B0D5001D9478 /* WJTimeStamp.h */,
@@ -377,11 +382,11 @@
 			name = cell;
 			sourceTree = "<group>";
 		};
-		5F5B7F2C4C1F58004BCC6CDC /* Pods */ = {
+		5BF49B0995086154FCC9B134 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EF7080D13EB7638CC6B2B8AF /* Pods.debug.xcconfig */,
-				1D2455CF461EDE846D5C71CC /* Pods.release.xcconfig */,
+				33358193401505FAF3DE810C /* Pods-WJDemo.debug.xcconfig */,
+				12FD9E7F990A2C09A2926E4E /* Pods-WJDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -404,7 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				18FED8391C76C1950051B666 /* CoreData.framework */,
-				4583DB7B235BF12384C5F753 /* libPods.a */,
+				6C7EEE29A9B8CCDB8EA2CEEE /* libPods-WJDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -416,11 +421,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1884A4901C5A1AC6006ECBD5 /* Build configuration list for PBXNativeTarget "WJDemo" */;
 			buildPhases = (
-				051699F7BA53026D9FB5BC3D /* Check Pods Manifest.lock */,
+				BFADFDFBD616102E65CD2F9F /* 📦 Check Pods Manifest.lock */,
 				1884A45F1C5A1AC5006ECBD5 /* Sources */,
 				1884A4601C5A1AC5006ECBD5 /* Frameworks */,
 				1884A4611C5A1AC5006ECBD5 /* Resources */,
-				0F54682A20748E4EEC67EAA7 /* Copy Pods Resources */,
+				F30433B71E30161C889C3117 /* 📦 Embed Pods Frameworks */,
+				DF0422B2DDD61B80E7E76B4E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -543,14 +549,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		051699F7BA53026D9FB5BC3D /* Check Pods Manifest.lock */ = {
+		BFADFDFBD616102E65CD2F9F /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,19 +564,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		0F54682A20748E4EEC67EAA7 /* Copy Pods Resources */ = {
+		DF0422B2DDD61B80E7E76B4E /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJDemo/Pods-WJDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F30433B71E30161C889C3117 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJDemo/Pods-WJDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -581,7 +602,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1884A4C41C5A2076006ECBD5 /* HomePageViewController.m in Sources */,
-				1884A4ED1C6077D5006ECBD5 /* LORequestManger.m in Sources */,
 				A05623FB1D08152C008BCAE6 /* EGORefreshTableHeaderView.m in Sources */,
 				1884A46E1C5A1AC5006ECBD5 /* ViewController.m in Sources */,
 				A06B991A1D0D6441008F5E72 /* NSString+Sha1.m in Sources */,
@@ -602,10 +622,12 @@
 				18FED8381C76BEAB0051B666 /* UserCollected.xcdatamodeld in Sources */,
 				1884A4CB1C5A2D61006ECBD5 /* DetailViewController.m in Sources */,
 				1884A4FA1C6092F5006ECBD5 /* ClassCollectionViewCell.m in Sources */,
+				A07C85C41D1244A100BDE5F4 /* WJProgressHUD.m in Sources */,
 				18F03ADB1C61B0D5001D9478 /* WJTimeStamp.m in Sources */,
 				1810E1A71C859988003A38DB /* WJAlertController.m in Sources */,
 				A06B991D1D0D6441008F5E72 /* Reachability.m in Sources */,
 				18FED84F1C76DA300051B666 /* CollectedInfo.m in Sources */,
+				A07C85C11D12424200BDE5F4 /* WJAFNRequestManager.m in Sources */,
 				1810E1A11C857FBC003A38DB /* ZoomViewController.m in Sources */,
 				1884A4CF1C5B0BB3006ECBD5 /* WJBackgroundView.m in Sources */,
 				1884A4D21C5B112B006ECBD5 /* DetailCollectionViewCell.m in Sources */,
@@ -751,7 +773,7 @@
 		};
 		1884A4911C5A1AC6006ECBD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF7080D13EB7638CC6B2B8AF /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 33358193401505FAF3DE810C /* Pods-WJDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jia Hao Yi (V7U8EJC3DW)";
@@ -769,7 +791,7 @@
 		};
 		1884A4921C5A1AC6006ECBD5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D2455CF461EDE846D5C71CC /* Pods.release.xcconfig */;
+			baseConfigurationReference = 12FD9E7F990A2C09A2926E4E /* Pods-WJDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Jia Hao Yi (FQDSF78QN7)";

@@ -27,8 +27,7 @@
 - (void)homePageGet{
 
     NSString *url = [NSString stringWithFormat:@"%@%ld",RECENT_URL,(long)_page];
-    [LORequestManger GET:url success:^(id response) {
-        
+    [WJAFNRequestManager GET:url paramerters:nil success:^(id response) {
         NSDictionary *dic = (NSDictionary *)response;
         NSArray *arr = [PostsModel sharedDataWithDic:dic];
         
@@ -39,8 +38,7 @@
         [self.tableView.mj_header endRefreshing];
         [self.tableView.mj_footer endRefreshing];
         [self.tableView reloadData];
-        
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    } failure:^(id error) {
         
     }];
 }

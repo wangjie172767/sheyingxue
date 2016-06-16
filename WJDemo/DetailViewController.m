@@ -38,8 +38,7 @@
     NSString *url = [CATEGOLRY_URL stringByReplacingOccurrencesOfString:@"###" withString:_slug];
     NSString *newUrl = [url stringByReplacingOccurrencesOfString:@"***" withString:[NSString stringWithFormat:@"%ld",(long)_page]];
 
-    [LORequestManger GET:newUrl success:^(id response) {
-        
+    [WJAFNRequestManager GET:newUrl paramerters:nil success:^(id response) {
         NSDictionary *dic = (NSDictionary *)response;
         NSArray *arr = [PostsModel sharedDataWithDic:dic];
         for (NSInteger i =0; i<arr.count; i++) {
@@ -51,9 +50,10 @@
                                withObject:nil
                             waitUntilDone:NO];
         [HUD hide:YES];
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    } failure:^(id error) {
         [HUD hide:YES];
     }];
+
 }
 
 - (void)setImagWithURLString:(NSString *)string{

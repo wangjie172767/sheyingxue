@@ -1,16 +1,13 @@
 
 
 #import <UIKit/UIKit.h>
+#import <objc/message.h>
 
 #ifdef DEBUG
 #define XZMLog(...) NSLog(__VA_ARGS__)
 #else
 #define XZMLog(...)
 #endif
-
-// objc_msgSend
-#define msgSend(...) ((void (*)(void *, SEL, UIView *))objc_msgSend)(__VA_ARGS__)
-
 
 #define XZMColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
@@ -38,6 +35,10 @@ extern NSString *const XZMRefreshContentSize;
 
 // 字体大小
 #define XZMRefreshLabelFont [UIFont boldSystemFontOfSize:14]
+
+// 运行时objc_msgSend
+#define msgSend(...) ((void (*)(void *, SEL, UIView *))objc_msgSend)(__VA_ARGS__)
+#define msgTarget(target) (__bridge void *)(target)
 
 // 状态检查
 #define XZMRefreshCheckState \

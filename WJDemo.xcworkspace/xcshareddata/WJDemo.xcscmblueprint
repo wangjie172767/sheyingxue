@@ -1,20 +1,28 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "529A40CF8D69248D0A0EF1BBF8CDD6C2783C52F1",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "671dc06b-d518-8248-8207-5643baf02e27++9191" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "671dc06b-d518-8248-8207-5643baf02e27++9191" : 0
+    "671dc06b-d518-8248-8207-5643baf02e27++9191" : 0,
+    "529A40CF8D69248D0A0EF1BBF8CDD6C2783C52F1" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3169789A-D40F-4928-9526-607A4EB963AB",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "671dc06b-d518-8248-8207-5643baf02e27++9191" : "WJDemo\/WJDemo\/EGORefresh.bundle\/"
+    "671dc06b-d518-8248-8207-5643baf02e27++9191" : "WJDemo\/WJDemo\/EGORefresh.bundle\/",
+    "529A40CF8D69248D0A0EF1BBF8CDD6C2783C52F1" : "WJDemo\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "WJDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WJDemo.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangjie172767\/sheyingxue.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "529A40CF8D69248D0A0EF1BBF8CDD6C2783C52F1"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.60.200\/svn\/iHome_controller",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
