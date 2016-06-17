@@ -79,8 +79,6 @@
         [self showResponseCode:task.response];
         failure(error);
         NSLog(@"===========Error=========\n%@\n==========",error);
-        
-        
     }];
 }
 
@@ -91,7 +89,7 @@
     
     NSHTTPURLResponse* httpResponse = (NSHTTPURLResponse*)response;
     NSInteger responseStatusCode = [httpResponse statusCode];
-    NSLog(@"responseStatusCode = %ld", responseStatusCode);
+    NSLog(@"responseStatusCode = %ld", (long)responseStatusCode);
     
     if (responseStatusCode == 0) {
         NSLog(@"网络错误");

@@ -14,8 +14,9 @@
 #import "BackBarBtnItem.h"
 #import <MJRefresh.h>
 
-
-// Include any system framework and library headers here that should be included in all compilation units.
+#define Firstpage_DefaultImage [UIImage imageNamed:@"firstpage_default"]
+#define Details_DefaultImage [UIImage imageNamed:@"details_default"]
+// Include any system framework and library headers here that should be included in all compilation units. 
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #endif /* PrefixHeader_pch */

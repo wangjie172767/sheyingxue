@@ -139,22 +139,38 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 
 + (Reachability *)reachabilityForInternetConnection;
 {
-  struct sockaddr_in zeroAddress;
-  bzero(&zeroAddress, sizeof(zeroAddress));
-  zeroAddress.sin_len = sizeof(zeroAddress);
-  zeroAddress.sin_family = AF_INET6;
-  return [self reachabilityWithAddress:&zeroAddress];
+    
+#if (defined(__IPHONE_OS_VERSION_MIN_REQUIRED) && __IPHONE_OS_VERSION_MIN_REQUIRED >= 90000) || (defined(__MAC_OS_X_VERSION_MIN_REQUIRED) && __MAC_OS_X_VERSION_MIN_REQUIRED >= 101100)
+    struct sockaddr_in6 address;
+    bzero(&address, sizeof(address));
+    address.sin6_len = sizeof(address);
+    address.sin6_family = AF_INET6;
+#else
+    struct sockaddr_in address;
+    bzero(&address, sizeof(address));
+    address.sin_len = sizeof(address);
+    address.sin_family = AF_INET;
+#endif
+
+  return [self reachabilityWithAddress:&address];
 }
 
 + (Reachability *)reachabilityForLocalWiFi;
 {
-  struct sockaddr_in localWifiAddress;
-  bzero(&localWifiAddress, sizeof(localWifiAddress));
-  localWifiAddress.sin_len = sizeof(localWifiAddress);
-  localWifiAddress.sin_family = AF_INET6;
-  // IN_LINKLOCALNETNUM is defined in <netinet/in.h> as 169.254.0.0
-  localWifiAddress.sin_addr.s_addr = htonl(IN_LINKLOCALNETNUM);
-  Reachability *retVal = [self reachabilityWithAddress:&localWifiAddress];
+#if (defined(__IPHONE_OS_VERSION_MIN_REQUIRED) && __IPHONE_OS_VERSION_MIN_REQUIRED >= 90000) || (defined(__MAC_OS_X_VERSION_MIN_REQUIRED) && __MAC_OS_X_VERSION_MIN_REQUIRED >= 101100)
+    struct sockaddr_in6 address;
+    bzero(&address, sizeof(address));
+    address.sin6_len = sizeof(address);
+    address.sin6_family = AF_INET6;
+#else
+    struct sockaddr_in address;
+    bzero(&address, sizeof(address));
+    address.sin_len = sizeof(address);
+    address.sin_family = AF_INET;
+#endif
+
+    address.sin_addr.s_addr = htonl(IN_LINKLOCALNETNUM);
+    Reachability *retVal = [self reachabilityWithAddress:&address];
   if (retVal != NULL) {
     retVal->localWiFiRef = YES;
   }

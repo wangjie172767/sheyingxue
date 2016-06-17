@@ -23,7 +23,7 @@
     NSString *time = [WJTimeStamp timeFormatter:model.time];
     self.bottomLabel.text = time;
 
-    [self.imgView sd_setImageWithURL:[NSURL URLWithString:model.thumbnail]];
+    [self.imgView sd_setImageWithURL:[NSURL URLWithString:model.thumbnail] placeholderImage:Details_DefaultImage];
     self.imgView.contentMode = UIViewContentModeScaleAspectFit;
 }
 

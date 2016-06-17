@@ -43,7 +43,7 @@
 - (void)cellInitWithModel:(PostsModel *)model{
 
     NSURL *url = [NSURL URLWithString:model.thumbnail];
-    [self.imgView sd_setImageWithURL:url];
+    [self.imgView sd_setImageWithURL:url placeholderImage:Firstpage_DefaultImage];
     self.label.text = model.title;
     
     //    cell.imgView.image = [UIImage imageNamed:_dataArr[indexPath.row]];
